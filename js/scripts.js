@@ -81,19 +81,19 @@ listOfOrganisations = [
 listOfInstructors = [
     {name:"Konrad Świderek", 
     desc:"Ze środowiskiem DESW związany od 2012 r. Instruktor prowadzący Warszawską Sekcję SDESW ARMA-PL. Instruktor sportu i badacz traktatów. Specjalizuje się w długim mieczu w konwencji <em>Blossfechten</em>, walce sztyletem, <em>Harnischfechten</em> (techniki półmieczowe) oraz rapierze według nauk szkoły <em>La Verdadera Destreza</em>. W nielicznych wolnych chwilach promotor i organizator wydarzeń związanych z DESW.", 
-    photo:"DSC_0430-—-kopia.jpg"},
+    photo:"PhotoKonrad.jpg"},
     {name:"Paweł Adamiec", 
     desc:"Pasjonat historii wczesnego średniowiecza zajmujący się od niemal 20 lat rekonstrukcją historyczną. Instruktor oraz badacz dawnych metod walki bronią białą m.in. sztyletem, rapierem, czy technikami półmieczowymi (<em>Harnischfechten</em>). Członek SDESW ARMA-PL. W szczególności w obrębie jego zainteresowań pozostaje wykorzystanie dużej tarczy w różnych epokach historycznych. W 2017 r. utworzył Projekt Svinfylking – grupę dedykowaną możliwie realistycznej rekonstrukcji walki z użyciem miecza i tarczy oraz innych broni znanych we wczesnym średniowieczu: toporów, włóczni, saksów itp. W Projekcie łączy teorię i badanie źródeł z praktyką opartą na pełnokontaktowej walce w konwencji DESW. ", 
-    photo:"InstructorPawel.png"},
+    photo:"Pawel.png"},
     {name:"Ireneusz Nowak", 
     desc:"Związany z DESW od 2008 r. Instruktor, badacz traktatów, sędzia na zawodach FEDER oraz organizator wydarzeń środowiskowych. Członek SDESW ARMA-PL. Interesuje się całościowym systemem Dawnych Europejskich Sztuk Walki, ze szczególnym uwzględnieniem fechtunku długim mieczem w konwencji <em>Blossfechten</em>, walki kordem (<em>Messer</em>), mieczem jednoręcznym z puklerzem oraz sztyletem. Jest również konstruktorem mieczy treningowych typu <em>fechtschwert</em>.", 
-    photo:"InstructorPhoto_Ireneusz-scaled-e1599778144832.jpg"},
+    photo:"PhotoIreneusz.jpg"},
     {name:"Jakub Wrzalik ", 
     desc:"Trenuje szermierkę od 2009 r., a od 2011 r. w konwencji DESW. Instruktor, badacz traktatów oraz liczny medalista na zawodach międzynarodowych i krajowych. Członek SDESW ARMA-PL. W kręgu jego zainteresowań znajduje się walka długim mieczem w konwencji <em>Blossfechten</em> oraz <em>Ringen</em> (zapasy historyczne). Jest również instruktorem Młodzieżowego Klubu Szermierki Dawnej „Szampierz”. Podczas zajęć przykłada dużą wagę do treningu ogólnorozwojowego i poprawy całości zdolności motorycznych ucznia.", 
     photo:"example.png"},
     {name:"Krzysztof Janus", 
     desc:"Trenuje szermierkę historyczną od 2014 r. Instruktor, badacz traktatów oraz zawodnik na ogólnopolskich zawodach FEDER. Instruktor sportu i członek SDESW ARMA-PL. Uczestnik licznych warsztatów i szkoleń. Bada źródła z zakresu długiego miecza w konwencji <em>Blossfechten</em> oraz <em>Ringen</em> (zapasy historyczne). Jest również instruktorem Młodzieżowego Klubu Szermierki Dawnej „Szampierz”. W nauczaniu stawia na czerpanie radości z szermierki oraz stałe doskonalenie technik i charakteru.", 
-    photo:"InstructorKrzysztof.png"},
+    photo:"Krzysztof.png"},
     {name:"Piotr Grygiel", 
     desc:" ", 
     photo:"example.png"},
@@ -233,7 +233,7 @@ function renderInstructorsSection(inputData){
 
         InstrName.textContent = inputData[i].name
         InstrChart.innerHTML = JSON.parse(JSON.stringify(inputData[i].desc))
-        InstrPhoto.setAttribute("src",`https://dev.historycznesztukiwalki.pl/wp-content/uploads/2020/09/${inputData[i].photo}`)
+        InstrPhoto.setAttribute("src",`https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/Instructor${inputData[i].photo}`)
         
         photoDiv.append(InstrPhoto)
         descriptionSection.append(photoDiv)
