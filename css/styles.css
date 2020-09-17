@@ -1,0 +1,115 @@
+.introduction{
+    padding:25px 15px;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    border: 1px solid #81d742;        
+}
+.introduction p {
+    text-align: center;
+    margin:0px;
+}
+.orgDescr {
+    text-align: justify;
+}
+.tableColumnTrainingNames {
+    width: 20%;
+}
+.trainingTable {
+    border-collapse: collapse;
+    margin: 2%
+}
+.trainingTable td {
+    text-align: justify;
+}
+.trainingTable td, .trainingTable th {
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+.trainingTable .trainingTableRowhead {
+    text-align: center;
+    font-weight: bold;
+}
+.fbInlineText {
+    text-align: justify;
+    margin-left: 2%
+}
+.fbInlinePhoto{
+    border:2px solid gray;
+    width:150px;
+    height:150px;
+    flex-basis: 150px;
+    min-width: 150px; 
+}
+.fbInlinePhoto img{
+    width: 100%;
+}
+.fbInlineTable{
+    display:flex; 
+    margin: 3%
+}
+.fbCenterdText {
+    text-align: center;
+    font-weight: bold;
+}
+.fbVertical {
+    display: flex;
+    flex-direction: column;
+    width: 155px;
+}
+.fbHorizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.pricingSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+    justify-content: space-between;
+    }
+.pricingSection.Svinfylking {
+    justify-content: space-around;
+}
+.price-card {
+    border: 1px solid gray;
+    width: 22%; 
+    border-radius: 2px;
+    box-sizing: border-box; 
+    margin-bottom: 25px;
+}
+.pricingSection.additional .price-card{
+    width: 30%;
+}
+.pricingSection.Svinfylking .price-card{
+    width: 30%;
+}
+.price-card div{
+    padding: 10px;
+}
+.price-Card-Name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-Card-Price {
+    text-align:center;
+    font-weight: bolder;
+    border-top: 1px solid #161616;
+    border-bottom: 1px solid #161616;
+    background-color: #090909;
+}
+.price-Card-Desc{
+    font-size: .8rem;
+    text-align: justify;
+}
+.trainingChart td{
+    width: 50%;
+    text-align: left;
+    border: 1px solid black;
+}
