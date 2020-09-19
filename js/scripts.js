@@ -117,6 +117,7 @@ function renderOrganisationSection (inputInfo) {
         namePar.innerText = `${inputInfo[i].fullName}`
         logoImg.setAttribute("src", `https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/Logo${inputInfo[i].img}`)
 
+
         logoDiv.append(logoImg)
         nameDiv.append(namePar)
         
@@ -208,12 +209,14 @@ function renderInstructorsSection(inputData){
         let photoDiv = document.createElement("div")
 
         insertionSite.className ="instructor_section_styles"
+
         InstrChart.className = "fbInlineText"
         photoDiv.className = "fbInlinePhoto"
         descriptionSection.className = "fbInlineTable"
 
         InstrName.textContent = inputData[i].name
         InstrChart.innerHTML = JSON.parse(JSON.stringify(inputData[i].desc))
+      
         InstrPhoto.setAttribute("src",`https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/${inputData[i].photo}`)
         
         photoDiv.append(InstrPhoto)
