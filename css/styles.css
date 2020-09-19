@@ -34,7 +34,6 @@
     margin-left: 2%
 }
 .fbInlinePhoto{
-    border:2px solid gray;
     width:150px;
     height:150px;
     flex-basis: 150px;
@@ -112,4 +111,17 @@
     width: 50%;
     text-align: left;
     border: 1px solid black;
+}
+@media only screen and (max-width: 450px) {
+ .price-card,
+ .pricingSection.additional .price-card,
+ .pricingSection.Svinfylking .price-card {
+    width: 48%;
+  }
+ .fbInlineTable {
+    flex-direction: column;
+ }
+ .fbInlinePhoto {
+    width: 100%;
+ }
 }

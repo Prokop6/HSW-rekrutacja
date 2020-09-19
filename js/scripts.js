@@ -26,7 +26,7 @@ listOfTrainings = [{
     desc:"Trening miecza długiego w konwencji <em>Blossfechten</em> (walka bez opancerzenia) według nauk niemieckiego mistrza Johannesa Lichtenauera i jego następców. W grupie zaawansowanej znacząco zostaje rozszerzony wątek <em>Ringen am Schwert</em> (zapasy na mieczu). Ponadto ćwiczący przenoszą umiejeności nabyte podczas wcześniejszych lat do konkretnych sytuacji i działań taktycznych, ucząc się wykorzystywać znane techniki w pełnokontaktowej walce.", 
     img:"LongswordAdvanced"}, {
     name:"długi miecz, trening sportowy", 
-    desc:"Trening miecza długiego poświęcony praktycznemu wykorzystaniu technik szermierczych w wybranych sytuacjach taktycznych. Techniki pochodzą z traktatów, a sytuacje taktyczne z analizy istniejących walk. Nauczanie wsparte jest metodyką szermierki sportowej. Podczas treningów ćwiczący rozwijają umiejętności doboru właściwej techniki do sytuacji oraz odpowiednie wyczucie tempa i dystansu.", 
+    desc:"Trening miecza długiego dla zaawansowanych, poświęcony praktycznemu wykorzystaniu technik szermierczych w wybranych sytuacjach taktycznych. Techniki pochodzą z traktatów, a sytuacje taktyczne z analizy istniejących walk. Nauczanie wsparte jest metodyką szermierki sportowej. Podczas treningów ćwiczący rozwijają umiejętności doboru właściwej techniki do sytuacji oraz odpowiednie wyczucie tempa i dystansu.", 
     img:"LongswordSport"}, {
     name:"miecz z tarczą, grupa początkująca", 
     desc:"Trening wprowadzający w walkę z użyciem okragłej dużej tarczy i miecza z okresu wczesnego średniowiecza. Podczas kursu trenujący zapoznają się z podstawowymi działaniami oraz zasadami prowadzenia broni, a także różnicami w jej użyciu względem konwencji sportowej. Zajęcia przygotowują do walki pełnokontaktowej i koncentrują się na budowaniu podstaw.", 
@@ -36,9 +36,6 @@ listOfTrainings = [{
     img:""}, {
     name:"rapier", 
     desc:"Trening rapiera według hiszpańskiej szkoły <em>La Verdadera Destreza</em> (prawdziwa sztuka). Podczas zajęć trenujący zapoznają się z technikami i naukami przekazywanymi przez hiszpańskich mistrzów fechtunku w XVI-XVII w.: Jerónimo Sánchez'a de Carranza, jego ucznia Luis'a Pacheco de Narváez oraz Francisco Lórenz'a de Rada. Poznają nie tylko postawy szkoły, akcje ataku i obrony, ale też bardzo istotną w tej szkole teorię.", 
-    img:""}, {
-    name:"szabla", 
-    desc:" ", 
     img:""}, {
     name:"kord", 
     desc:"Trening <em>messera</em> (kord) w tradycji niemieckiej, w szczególności według nauk mistrza ks. Johannes'a Lecküchner'a. Zajęcia są połączeniem klasycznego treningu i seminarium. Uczestnicy nie tylko uczą się technik władania bronią, ale też - pod przewodnictwem prowadzącego - analizują źródła i opracowują własne interpretacje zawartych w nich działań.", 
@@ -65,7 +62,7 @@ listOfOrganisations = [
     {name:"ClubARMA", 
     fullName:"Stowarzyszenie na rzecz Dawnych Europejskich Sztuk Walki ARMA-PL Warszawa", 
     desc:" ", 
-    img:"ARMA2a.png",
+    img:"ARMA_rob_500.png",
     about:"http://arma.lh.pl/waw/"},
     {name:"ClubSvinfylking", 
     fullName:"Projekt Svinfylking", 
@@ -81,25 +78,22 @@ listOfOrganisations = [
 listOfInstructors = [
     {name:"Konrad Świderek", 
     desc:"Ze środowiskiem DESW związany od 2012 r. Instruktor prowadzący Warszawską Sekcję SDESW ARMA-PL. Instruktor sportu i badacz traktatów. Specjalizuje się w długim mieczu w konwencji <em>Blossfechten</em>, walce sztyletem, <em>Harnischfechten</em> (techniki półmieczowe) oraz rapierze według nauk szkoły <em>La Verdadera Destreza</em>. W nielicznych wolnych chwilach promotor i organizator wydarzeń związanych z DESW.", 
-    photo:"PhotoKonrad.jpg"},
+    photo:"InstructorPhotoKonrad.jpg"},
     {name:"Paweł Adamiec", 
     desc:"Pasjonat historii wczesnego średniowiecza zajmujący się od niemal 20 lat rekonstrukcją historyczną. Instruktor oraz badacz dawnych metod walki bronią białą m.in. sztyletem, rapierem, czy technikami półmieczowymi (<em>Harnischfechten</em>). Członek SDESW ARMA-PL. W szczególności w obrębie jego zainteresowań pozostaje wykorzystanie dużej tarczy w różnych epokach historycznych. W 2017 r. utworzył Projekt Svinfylking – grupę dedykowaną możliwie realistycznej rekonstrukcji walki z użyciem miecza i tarczy oraz innych broni znanych we wczesnym średniowieczu: toporów, włóczni, saksów itp. W Projekcie łączy teorię i badanie źródeł z praktyką opartą na pełnokontaktowej walce w konwencji DESW. ", 
-    photo:"Pawel.png"},
+    photo:"InstructorPawel.png"},
     {name:"Ireneusz Nowak", 
     desc:"Związany z DESW od 2008 r. Instruktor, badacz traktatów, sędzia na zawodach FEDER oraz organizator wydarzeń środowiskowych. Członek SDESW ARMA-PL. Interesuje się całościowym systemem Dawnych Europejskich Sztuk Walki, ze szczególnym uwzględnieniem fechtunku długim mieczem w konwencji <em>Blossfechten</em>, walki kordem (<em>Messer</em>), mieczem jednoręcznym z puklerzem oraz sztyletem. Jest również konstruktorem mieczy treningowych typu <em>fechtschwert</em>.", 
-    photo:"PhotoIreneusz.jpg"},
+    photo:"InstructorPhotoIreneusz.jpg"},
     {name:"Jakub Wrzalik ", 
     desc:"Trenuje szermierkę od 2009 r., a od 2011 r. w konwencji DESW. Instruktor, badacz traktatów oraz liczny medalista na zawodach międzynarodowych i krajowych. Członek SDESW ARMA-PL. W kręgu jego zainteresowań znajduje się walka długim mieczem w konwencji <em>Blossfechten</em> oraz <em>Ringen</em> (zapasy historyczne). Jest również instruktorem Młodzieżowego Klubu Szermierki Dawnej „Szampierz”. Podczas zajęć przykłada dużą wagę do treningu ogólnorozwojowego i poprawy całości zdolności motorycznych ucznia.", 
-    photo:"example.png"},
+    photo:"Kuba.jpg"},
     {name:"Krzysztof Janus", 
     desc:"Trenuje szermierkę historyczną od 2014 r. Instruktor, badacz traktatów oraz zawodnik na ogólnopolskich zawodach FEDER. Instruktor sportu i członek SDESW ARMA-PL. Uczestnik licznych warsztatów i szkoleń. Bada źródła z zakresu długiego miecza w konwencji <em>Blossfechten</em> oraz <em>Ringen</em> (zapasy historyczne). Jest również instruktorem Młodzieżowego Klubu Szermierki Dawnej „Szampierz”. W nauczaniu stawia na czerpanie radości z szermierki oraz stałe doskonalenie technik i charakteru.", 
-    photo:"Krzysztof.png"},
-    {name:"Piotr Grygiel", 
-    desc:" ", 
-    photo:"example.png"},
+    photo:"InstructorKrzysztof.png"},
     {name:"Aleksander Szczęsny", 
     desc:"Trenuje szermierkę od 2006 roku, a szermierkę europejską od 2010 roku. Ściśle związany z DESW od 2018 r. Członek SDESW ARMA-PL. Badacz traktatów i instruktor walki kordem (<em>Messer</em>) według tradycji mistrza ks. Joahanesa Leckuchnera. W nauczaniu stawia na dokładne odwzorowanie technik traktatowych.", 
-    photo:"example.png"}
+    photo:"LogoARMA_rob_500.png"}
 ] 
 function renderOrganisationSection (inputInfo) {
     let insertionSite = document.getElementById('mark4organisations')
@@ -121,7 +115,7 @@ function renderOrganisationSection (inputInfo) {
 
         infoLink.setAttribute("href", `${inputInfo[i].about}`)
         namePar.innerText = `${inputInfo[i].fullName}`
-        logoImg.setAttribute("src", `https://dev.historycznesztukiwalki.pl/wp-content/uploads/2020/09/Logo${inputInfo[i].img}`)
+        logoImg.setAttribute("src", `https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/Logo${inputInfo[i].img}`)
 
         logoDiv.append(logoImg)
         nameDiv.append(namePar)
@@ -233,7 +227,7 @@ function renderInstructorsSection(inputData){
 
         InstrName.textContent = inputData[i].name
         InstrChart.innerHTML = JSON.parse(JSON.stringify(inputData[i].desc))
-        InstrPhoto.setAttribute("src",`https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/Instructor${inputData[i].photo}`)
+        InstrPhoto.setAttribute("src",`https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/${inputData[i].photo}`)
         
         photoDiv.append(InstrPhoto)
         descriptionSection.append(photoDiv)
