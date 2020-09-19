@@ -130,9 +130,11 @@
 }
 .day_spec p{
     margin: 5px 0;
-}
+    line-height: 1.5rem;
+ }
 .instructor_section_styles{
     background-color: #81d742;
+    line-height: 1.5rem;
 }
 .instructor_section_styles .fbInlinePhoto {
     width: 70%;
@@ -142,19 +144,16 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color:red
 }
 .training_details {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: skyblue;
     margin: 5px;
     max-width: 95%;
 }
 .training_name_field {
-    width: 10rem;
-    background-color: green;
+    min-width: 33%;
     margin: 0 2px;
 }
 .training_name_field p{
@@ -165,7 +164,6 @@
 }
 .training_description_field {
     text-align: justify;
-    background-color: yellow;
     margin-top: 0;
     line-height: 1.5rem;
 }
@@ -180,7 +178,7 @@
  .pricingSection.additional .price-card,
  .pricingSection.Svinfylking .price-card {
     width: 75%;
-    
+
 }
  .fbInlineTable {
     flex-direction: column;
@@ -190,9 +188,10 @@
  }
  .training_spec {
     flex-direction: column;
+    align-items: center;
  }
-.day_spec {
-    width: 90%;
+ .day_spec{
+     width: 75%;
  }
 .training_details {
     flex-direction: column;
