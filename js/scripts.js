@@ -26,7 +26,7 @@ listOfTrainings = [{
     desc:"Trening miecza długiego w konwencji <em>Blossfechten</em> (walka bez opancerzenia) według nauk niemieckiego mistrza Johannesa Lichtenauera i jego następców. W grupie zaawansowanej znacząco zostaje rozszerzony wątek <em>Ringen am Schwert</em> (zapasy na mieczu). Ponadto ćwiczący przenoszą umiejeności nabyte podczas wcześniejszych lat do konkretnych sytuacji i działań taktycznych, ucząc się wykorzystywać znane techniki w pełnokontaktowej walce.", 
     img:"LongswordAdvanced"}, {
     name:"długi miecz, trening sportowy", 
-    desc:"Trening miecza długiego poświęcony praktycznemu wykorzystaniu technik szermierczych w wybranych sytuacjach taktycznych. Techniki pochodzą z traktatów, a sytuacje taktyczne z analizy istniejących walk. Nauczanie wsparte jest metodyką szermierki sportowej. Podczas treningów ćwiczący rozwijają umiejętności doboru właściwej techniki do sytuacji oraz odpowiednie wyczucie tempa i dystansu.", 
+    desc:"Trening miecza długiego dla zaawansowanych, poświęcony praktycznemu wykorzystaniu technik szermierczych w wybranych sytuacjach taktycznych. Techniki pochodzą z traktatów, a sytuacje taktyczne z analizy istniejących walk. Nauczanie wsparte jest metodyką szermierki sportowej. Podczas treningów ćwiczący rozwijają umiejętności doboru właściwej techniki do sytuacji oraz odpowiednie wyczucie tempa i dystansu.", 
     img:"LongswordSport"}, {
     name:"miecz z tarczą, grupa początkująca", 
     desc:"Trening wprowadzający w walkę z użyciem okragłej dużej tarczy i miecza z okresu wczesnego średniowiecza. Podczas kursu trenujący zapoznają się z podstawowymi działaniami oraz zasadami prowadzenia broni, a także różnicami w jej użyciu względem konwencji sportowej. Zajęcia przygotowują do walki pełnokontaktowej i koncentrują się na budowaniu podstaw.", 
@@ -37,9 +37,6 @@ listOfTrainings = [{
     name:"rapier", 
     desc:"Trening rapiera według hiszpańskiej szkoły <em>La Verdadera Destreza</em> (prawdziwa sztuka). Podczas zajęć trenujący zapoznają się z technikami i naukami przekazywanymi przez hiszpańskich mistrzów fechtunku w XVI-XVII w.: Jerónimo Sánchez'a de Carranza, jego ucznia Luis'a Pacheco de Narváez oraz Francisco Lórenz'a de Rada. Poznają nie tylko postawy szkoły, akcje ataku i obrony, ale też bardzo istotną w tej szkole teorię.", 
     img:""}, {
-    name:"szabla", 
-    desc:" ", 
-    img:""}, {
     name:"kord", 
     desc:"Trening <em>messera</em> (kord) w tradycji niemieckiej, w szczególności według nauk mistrza ks. Johannes'a Lecküchner'a. Zajęcia są połączeniem klasycznego treningu i seminarium. Uczestnicy nie tylko uczą się technik władania bronią, ale też - pod przewodnictwem prowadzącego - analizują źródła i opracowują własne interpretacje zawartych w nich działań.", 
     img:"Messer"}, {
@@ -49,7 +46,7 @@ listOfTrainings = [{
     name:"techniki półmieczowe", 
     desc:"Trening półmiecza według przekazu traktatów z <em>grupy Gladiatoria</em>, <em>Codex Wallerstein</em> oraz innych źródeł tradycji niemieckiej. Podczas zajęć uczestnicy poznają techniki pozwalające na skuteczne wykorzystanie miecza długiego podczas starcia w konwencji <em>Harnischfechten</em> (walka w opancerzeniu). Do nauki technik nie jest potrzebne ciężkie opancerzenie.", 
     img:"Halfsword"}, {
- name:`Treningi Młodzieżowego Klubu Szermierki Dawnej "Szampierz"`, 
+    name:`Treningi Młodzieżowego Klubu Szermierki Dawnej "Szampierz"`, 
     desc:`Treningi dla młodzieży poniżej 16 roku życia. Zajęcia prowadzone są przy użyciu miękkiej broni otulinowej. Wszystkie aktualne informacje odnośnie zapisów, charakteru zajęć oraz cennika, znajdują się na stronie <a href="https://www.szampierz.pl">Młodzieżowego Klubu Szermierki Dawnej "Szampierz"</a>.`, 
     img:"SzapmpierzTrainings"}, {
     name:"Zajęcia indywidualne", 
@@ -65,7 +62,7 @@ listOfOrganisations = [
     {name:"ClubARMA", 
     fullName:"Stowarzyszenie na rzecz Dawnych Europejskich Sztuk Walki ARMA-PL Warszawa", 
     desc:" ", 
-    img:"ARMA2a.png",
+    img:"ARMA_rob_500.png",
     about:"http://arma.lh.pl/waw/"},
     {name:"ClubSvinfylking", 
     fullName:"Projekt Svinfylking", 
@@ -73,7 +70,7 @@ listOfOrganisations = [
     img:"Svinfylking.png",
     about:"http://svinfylking.cba.pl/o-projekcie/"},
     {name:"ClubSzampierz", 
-    fullName:"Młodzierzowy Klub Szermierki Dawnej Szampierz", 
+    fullName:`Młodzierzowy Klub Szermierki Dawnej "Szampierz"`, 
     desc:" ", 
     img:"Szampierz.jpg",
     about:"https://www.szampierz.pl/o-nas/"},
@@ -81,25 +78,22 @@ listOfOrganisations = [
 listOfInstructors = [
     {name:"Konrad Świderek", 
     desc:"Ze środowiskiem DESW związany od 2012 r. Instruktor prowadzący Warszawską Sekcję SDESW ARMA-PL. Instruktor sportu i badacz traktatów. Specjalizuje się w długim mieczu w konwencji <em>Blossfechten</em>, walce sztyletem, <em>Harnischfechten</em> (techniki półmieczowe) oraz rapierze według nauk szkoły <em>La Verdadera Destreza</em>. W nielicznych wolnych chwilach promotor i organizator wydarzeń związanych z DESW.", 
-    photo:"PhotoKonrad.jpg"},
+    photo:"InstructorPhotoKonrad.jpg"},
     {name:"Paweł Adamiec", 
     desc:"Pasjonat historii wczesnego średniowiecza zajmujący się od niemal 20 lat rekonstrukcją historyczną. Instruktor oraz badacz dawnych metod walki bronią białą m.in. sztyletem, rapierem, czy technikami półmieczowymi (<em>Harnischfechten</em>). Członek SDESW ARMA-PL. W szczególności w obrębie jego zainteresowań pozostaje wykorzystanie dużej tarczy w różnych epokach historycznych. W 2017 r. utworzył Projekt Svinfylking – grupę dedykowaną możliwie realistycznej rekonstrukcji walki z użyciem miecza i tarczy oraz innych broni znanych we wczesnym średniowieczu: toporów, włóczni, saksów itp. W Projekcie łączy teorię i badanie źródeł z praktyką opartą na pełnokontaktowej walce w konwencji DESW. ", 
-    photo:"Pawel.png"},
+    photo:"InstructorPawel.png"},
     {name:"Ireneusz Nowak", 
     desc:"Związany z DESW od 2008 r. Instruktor, badacz traktatów, sędzia na zawodach FEDER oraz organizator wydarzeń środowiskowych. Członek SDESW ARMA-PL. Interesuje się całościowym systemem Dawnych Europejskich Sztuk Walki, ze szczególnym uwzględnieniem fechtunku długim mieczem w konwencji <em>Blossfechten</em>, walki kordem (<em>Messer</em>), mieczem jednoręcznym z puklerzem oraz sztyletem. Jest również konstruktorem mieczy treningowych typu <em>fechtschwert</em>.", 
-    photo:"PhotoIreneusz.jpg"},
+    photo:"InstructorPhotoIreneusz.jpg"},
     {name:"Jakub Wrzalik ", 
     desc:"Trenuje szermierkę od 2009 r., a od 2011 r. w konwencji DESW. Instruktor, badacz traktatów oraz liczny medalista na zawodach międzynarodowych i krajowych. Członek SDESW ARMA-PL. W kręgu jego zainteresowań znajduje się walka długim mieczem w konwencji <em>Blossfechten</em> oraz <em>Ringen</em> (zapasy historyczne). Jest również instruktorem Młodzieżowego Klubu Szermierki Dawnej „Szampierz”. Podczas zajęć przykłada dużą wagę do treningu ogólnorozwojowego i poprawy całości zdolności motorycznych ucznia.", 
-    photo:"example.png"},
+    photo:"Kuba.jpg"},
     {name:"Krzysztof Janus", 
     desc:"Trenuje szermierkę historyczną od 2014 r. Instruktor, badacz traktatów oraz zawodnik na ogólnopolskich zawodach FEDER. Instruktor sportu i członek SDESW ARMA-PL. Uczestnik licznych warsztatów i szkoleń. Bada źródła z zakresu długiego miecza w konwencji <em>Blossfechten</em> oraz <em>Ringen</em> (zapasy historyczne). Jest również instruktorem Młodzieżowego Klubu Szermierki Dawnej „Szampierz”. W nauczaniu stawia na czerpanie radości z szermierki oraz stałe doskonalenie technik i charakteru.", 
-    photo:"Krzysztof.png"},
-    {name:"Piotr Grygiel", 
-    desc:" ", 
-    photo:"example.png"},
+    photo:"InstructorKrzysztof.png"},
     {name:"Aleksander Szczęsny", 
     desc:"Trenuje szermierkę od 2006 roku, a szermierkę europejską od 2010 roku. Ściśle związany z DESW od 2018 r. Członek SDESW ARMA-PL. Badacz traktatów i instruktor walki kordem (<em>Messer</em>) według tradycji mistrza ks. Joahanesa Leckuchnera. W nauczaniu stawia na dokładne odwzorowanie technik traktatowych.", 
-    photo:"example.png"}
+    photo:"LogoARMA_rob_500.png"}
 ] 
 function renderOrganisationSection (inputInfo) {
     let insertionSite = document.getElementById('mark4organisations')
@@ -121,7 +115,7 @@ function renderOrganisationSection (inputInfo) {
 
         infoLink.setAttribute("href", `${inputInfo[i].about}`)
         namePar.innerText = `${inputInfo[i].fullName}`
-        logoImg.setAttribute("src", `https://dev.historycznesztukiwalki.pl/wp-content/uploads/2020/09/Logo${inputInfo[i].img}`)
+        logoImg.setAttribute("src", `https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/Logo${inputInfo[i].img}`)
 
         logoDiv.append(logoImg)
         nameDiv.append(namePar)
@@ -176,47 +170,33 @@ tagName.textContent=`Karnet ${inputInfo[i][0]}` }
         };
 };
 function renderTrainingTable(inputData) {
-    let insertionSite = document.getElementById("mark4TrainingDescriptions")    
-    let mainTable = document.createElement('table')
-    mainTable.className="trainingTable"
-    mainTable.setAttribute("class","trainingTable")   
-    let headerRow = document.createElement('tr')
-    let trainingNameH = document.createElement('th')
-    trainingNameH.setAttribute("class","tableColumnTrainingNames")
-    let trainingDesciptionsH = document.createElement('th')
-    trainingNameH.textContent=`trening`
-    trainingDesciptionsH.textContent=`Opis`
-    trainingNameH.className = 
-    trainingDesciptionsH.className = 
-    headerRow.append(trainingNameH)
-    headerRow.append(trainingDesciptionsH)
-    mainTable.append(headerRow)
+    let insertionSite = document.getElementById("mark4TrainingDescriptions")
+    let trainingOverview = document.createElement("div")
+    trainingOverview.className = "training_overview"
+    
     for (let i=0; i<inputData.length-1; i++) {
-        
-        let textRow = document.createElement('tr')
-        let trainingNameD = document.createElement('td')
-        let trainingDescriptionsD = document.createElement('td')
+        let trainingDetails = document.createElement("div")
+        let trainingNameField = document.createElement("div")
+        let trainingDescriptionField = document.createElement("div")
 
-        trainingNameD.className = "trainingTableRowhead"
-        //let trainingDescBG = document.createElement("img")
-        
-        trainingDescriptionsD.className 
-        trainingNameD.className 
-        // trainingDescBG.className = " "
+        trainingDetails.className="training_details"
+        trainingNameField.className="training_name_field"
+        trainingDescriptionField.className="training_description_field"
 
-        trainingNameD.textContent = `${inputData[i].name}`
-        trainingDescriptionsD.innerHTML = JSON.parse(JSON.stringify(inputData[i].desc))
-        // trainingDescBG.setAttribute("src",`https://dev.historycznesztukiwalki.pl/wp-content/uploads/2020/09/Codex${inputData[i].photo}.png`)
+        trainingNameFieldText = document.createElement("p")
+        trainingDescriptionFieldText = document.createElement("p")
 
-        // trainingDescriptionsD.append(trainingDescBG)
+        trainingNameFieldText.innerText = `${inputData[i].name}`
+        trainingDescriptionFieldText.innerHTML  =JSON.parse(JSON.stringify(`${inputData[i].desc}`))
 
-        textRow.append(trainingNameD)
-        textRow.append(trainingDescriptionsD)
-        
-        mainTable.append(textRow)
+        trainingNameField.appendChild(trainingNameFieldText)
+        trainingDescriptionField.appendChild(trainingDescriptionFieldText)
+
+        trainingDetails.append(trainingNameField)
+        trainingDetails.append(trainingDescriptionField)
+        trainingOverview.append(trainingDetails)
     };
-    insertionSite.append(mainTable)
-    // insertionSite.setAttribute("id","TrainingDescriptions")
+    insertionSite.append(trainingOverview)
 };
 function renderInstructorsSection(inputData){
     let insertionSite = document.getElementById("mark4instructorDetails")
@@ -227,13 +207,14 @@ function renderInstructorsSection(inputData){
         let InstrPhoto = document.createElement("img")
         let photoDiv = document.createElement("div")
 
+        insertionSite.className ="instructor_section_styles"
         InstrChart.className = "fbInlineText"
         photoDiv.className = "fbInlinePhoto"
         descriptionSection.className = "fbInlineTable"
 
         InstrName.textContent = inputData[i].name
         InstrChart.innerHTML = JSON.parse(JSON.stringify(inputData[i].desc))
-        InstrPhoto.setAttribute("src",`https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/Instructor${inputData[i].photo}`)
+        InstrPhoto.setAttribute("src",`https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/${inputData[i].photo}`)
         
         photoDiv.append(InstrPhoto)
         descriptionSection.append(photoDiv)
