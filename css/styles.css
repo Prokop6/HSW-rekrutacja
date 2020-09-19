@@ -34,7 +34,6 @@
     margin-left: 2%
 }
 .fbInlinePhoto{
-    border:2px solid gray;
     width:150px;
     height:150px;
     flex-basis: 150px;
@@ -108,8 +107,97 @@
     font-size: .8rem;
     text-align: justify;
 }
-.trainingChart td{
-    width: 50%;
-    text-align: left;
-    border: 1px solid black;
+.training_spec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.day_spec{
+    background-color: #161616;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 5px;
+    width: 45%;
+}
+.weekday {
+    text-align: center;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: Open Sans;
+    font-size: 1.1em;
+}
+.day_spec p{
+    margin: 5px 0;
+}
+.instructor_section_styles{
+    background-color: #81d742;
+}
+.instructor_section_styles .fbInlinePhoto {
+    width: 70%;
+    height: auto;
+}
+.training_overview {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color:red
+}
+.training_details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: skyblue;
+    margin: 5px;
+    max-width: 95%;
+}
+.training_name_field {
+    width: 10rem;
+    background-color: green;
+    margin: 0 2px;
+}
+.training_name_field p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: 0 5px 5px 5px;
+}
+.training_description_field {
+    text-align: justify;
+    background-color: yellow;
+    margin-top: 0;
+    line-height: 1.5rem;
+}
+.training_description_field p{
+    margin: 0 5px 5px 5px;
+}
+@media only screen and (max-width: 450px) {
+    .pricingSection{
+        justify-content: space-around;
+    }
+ .price-card,
+ .pricingSection.additional .price-card,
+ .pricingSection.Svinfylking .price-card {
+    width: 75%;
+    
+}
+ .fbInlineTable {
+    flex-direction: column;
+ }
+ .fbInlinePhoto {
+    width: 100%;
+ }
+ .training_spec {
+    flex-direction: column;
+ }
+.day_spec {
+    width: 90%;
+ }
+.training_details {
+    flex-direction: column;
+}
+.training_name_field {
+    width: 75%;
+}
 }
