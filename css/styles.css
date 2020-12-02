@@ -1,33 +1,36 @@
-.introduction{
-    padding:25px 15px;
+
+.introduction {
+    padding: 25px 15px;
     margin-bottom: 20px;
     font-size: 1.6em;
-    border: 1px solid #81d742;        
+    border: 1px solid #81d742;
+border-radius 2px;
 }
 .introduction p {
     text-align: center;
     margin:0px;
 }
+.announcementDiv {
+  position: sticky;
+  top: 0;
+padding: 25px 15px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #81d742;
+text-align: center;
+background-color: #aed691;
+color: #000000;
+font-weight:bold;
+}
+.announcementDiv p {
+margin: unset;
+}
+.map {
+width:91.5%;
+margin-bottom:3em;
+}
 .orgDescr {
     text-align: justify;
-}
-.tableColumnTrainingNames {
-    width: 20%;
-}
-.trainingTable {
-    border-collapse: collapse;
-    margin: 2%
-}
-.trainingTable td {
-    text-align: justify;
-}
-.trainingTable td, .trainingTable th {
-    padding: 10px;
-    border-top: 1px solid gray;
-}
-.trainingTable .trainingTableRowhead {
-    text-align: center;
-    font-weight: bold;
 }
 .fbInlineText {
     text-align: justify;
@@ -37,13 +40,13 @@
     width:150px;
     height:150px;
     flex-basis: 150px;
-    min-width: 150px; 
+    min-width: 150px;
 }
 .fbInlinePhoto img{
     width: 100%;
 }
 .fbInlineTable{
-    display:flex; 
+    display:flex;
     margin: 3%
 }
 .fbCenterdText {
@@ -65,24 +68,11 @@
 .pricingSection {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch; 
+    align-items: stretch;
     justify-content: space-between;
-    }
+}
 .pricingSection.Svinfylking {
     justify-content: space-around;
-}
-.price-card {
-    border: 1px solid gray;
-    width: 22%; 
-    border-radius: 2px;
-    box-sizing: border-box; 
-    margin-bottom: 25px;
-}
-.pricingSection.additional .price-card{
-    width: 30%;
-}
-.pricingSection.Svinfylking .price-card{
-    width: 30%;
 }
 .price-card div{
     padding: 10px;
@@ -131,14 +121,9 @@
 .day_spec p{
     margin: 5px 0;
     line-height: 1.5rem;
- }
-.instructor_section_styles{
-    background-color: #81d742;
-    line-height: 1.5rem;
 }
-.instructor_section_styles .fbInlinePhoto {
-    width: 70%;
-    height: auto;
+.instructor_section_styles{
+    line-height: 1.5rem;
 }
 .training_overview {
     display: flex;
@@ -149,18 +134,26 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 5px;
+    margin: 0 5px;
     max-width: 95%;
+    border-bottom: 1px #161616 solid;
+}
+.training_details > div {
+    padding: 10px;
+}
+.training_details:nth-child(odd) {
+    background: #090909;
 }
 .training_name_field {
     min-width: 33%;
     margin: 0 2px;
 }
 .training_name_field p{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: bold;
     font-variant: small-caps;
     margin: 0 5px 5px 5px;
+    text-align: center;
 }
 .training_description_field {
     text-align: justify;
@@ -174,29 +167,41 @@
     .pricingSection{
         justify-content: space-around;
     }
- .price-card,
- .pricingSection.additional .price-card,
- .pricingSection.Svinfylking .price-card {
-    width: 75%;
-
-}
- .fbInlineTable {
-    flex-direction: column;
- }
- .fbInlinePhoto {
-    width: 100%;
- }
- .training_spec {
-    flex-direction: column;
-    align-items: center;
- }
- .day_spec{
-     width: 75%;
- }
-.training_details {
-    flex-direction: column;
-}
-.training_name_field {
-    width: 75%;
-}
+    .price-card,
+    .pricingSection.additional .price-card,
+    .pricingSection.Svinfylking .price-card {
+        width: 100%;
+    }
+    .fbInlineTable {
+        flex-direction: column;
+    }
+    .fbInlinePhoto {
+        width: 100%;
+        height: auto;
+    }
+    .fbInlineText {
+        margin-left: 0;
+    }
+    .training_spec {
+        flex-direction: column;
+        align-items: center;
+    }
+    .training_details{
+        border-bottom: unset;
+    }
+    .day_spec{
+        width: 75%;
+    }
+    .training_details {
+        flex-direction: column;
+    }
+    .training_name_field {
+        width: 75vw;
+    }
+    .training_name_field p{
+        text-align: left;
+    }
+    .training_details:nth-child(odd) {
+        background: unset;
+    }
 }
