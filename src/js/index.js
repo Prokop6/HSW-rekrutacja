@@ -1,6 +1,16 @@
+import { renderTrainingTable } from "./renderTrainingTable";
+import { listOfTrainings } from "./listOfTrainingsSummerCamp";
+
+import { renderOrganisationSection } from "./renderOrganisationSection.js";
+import { listOfOrganisations } from "./listOfOrganisations.js";
+
+import { renderInstructorsSection } from "./renderInstructorsSection.js";
+import { listOfInstructors } from "./listOfInstructorsSC.js";
+
+import { renderPricingTable } from './renderPricingTableSC.js'
+import { priceTagsSC } from "./priceTagsSC.js";
+
 renderOrganisationSection(listOfOrganisations);
 renderTrainingTable(listOfTrainings);
-renderPricingTable(priceTagsLS,"fundamental");
-renderPricingTable(priceTagsAdditionall,"additional");
-renderPricingTable(priceTagsSaS,"Svinfylking");
+renderPricingTable(priceTagsSC);
 renderInstructorsSection(listOfInstructors);

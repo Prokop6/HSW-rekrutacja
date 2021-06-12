@@ -16,11 +16,5 @@ export const listOfOrganisations = [{
     desc: " ",
     img: "Svinfylking.png",
     about: "http://svinfylking.cba.pl/o-projekcie/"
-}, {
-    name: "ClubSzampierz",
-    fullName: `Młodzierzowy Klub Szermierki Dawnej "Szampierz"`,
-    desc: " ",
-    img: "Szampierz.jpg",
-    about: "https://www.szampierz.pl/o-nas/"
-},
+}, 
 ];

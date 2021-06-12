@@ -29,5 +29,4 @@ export function renderInstructorsSection(inputData) {
 
         insertionSite.append(subsection);
     };
-}
-;
+};

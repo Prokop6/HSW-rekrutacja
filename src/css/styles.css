@@ -5,58 +5,70 @@
     border: 1px solid #81d742;
     border-radius: 2px;
 }
+
 .introduction p {
     text-align: center;
-    margin:0px;
+    margin: 0px;
 }
+
 .announcementDiv {
-  position: sticky;
-  top: 0;
-padding: 25px 15px;
+    position: sticky;
+    top: 0;
+    padding: 25px 15px;
     margin-bottom: 20px;
     font-size: 1em;
     border: 1px solid #81d742;
-text-align: center;
-background-color: #aed691;
-color: #000000;
-font-weight:bold;
+    text-align: center;
+    background-color: #aed691;
+    color: #000000;
+    font-weight: bold;
 }
+
 .announcementDiv p {
-margin: unset;
+    margin: unset;
 }
+
 .map {
-width:91.5%;
-margin-bottom:3em;
+    width: 91.5%;
+    margin-bottom: 3em;
 }
+
 .orgDescr {
     text-align: justify;
 }
+
 .fbInlineText {
     text-align: justify;
     margin-left: 2%
 }
-.fbInlinePhoto{
-    width:150px;
-    height:150px;
+
+.fbInlinePhoto {
+    width: 150px;
+    height: 150px;
     flex-basis: 150px;
     min-width: 150px;
 }
-.fbInlinePhoto img{
+
+.fbInlinePhoto img {
     width: 100%;
 }
-.fbInlineTable{
-    display:flex;
+
+.fbInlineTable {
+    display: flex;
     margin: 3%
 }
+
 .fbCenterdText {
     text-align: center;
     font-weight: bold;
 }
+
 .fbVertical {
     display: flex;
     flex-direction: column;
     width: 155px;
 }
+
 .fbHorizontal {
     display: flex;
     flex-direction: row;
@@ -64,18 +76,22 @@ margin-bottom:3em;
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
 .pricingSection {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
 }
+
 .pricingSection.Svinfylking {
     justify-content: space-around;
 }
-.price-card div{
+
+.price-card div {
     padding: 10px;
 }
+
 .price-Card-Name {
     font-weight: bold;
     font-size: 1.1rem;
@@ -85,29 +101,34 @@ margin-bottom:3em;
     justify-content: center;
     align-items: center;
 }
+
 .price-Card-Price {
-    text-align:center;
+    text-align: center;
     font-weight: bolder;
     border-top: 1px solid #161616;
     border-bottom: 1px solid #161616;
     background-color: #090909;
 }
-.price-Card-Desc{
+
+.price-Card-Desc {
     font-size: .8rem;
     text-align: justify;
 }
+
 .training_spec {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.day_spec{
+
+.day_spec {
     background-color: #161616;
     border-radius: 2px;
     padding: 10px;
     margin: 5px;
     width: 45%;
 }
+
 .weekday {
     text-align: center;
     margin-top: 0;
@@ -117,18 +138,22 @@ margin-bottom:3em;
     font-family: Open Sans;
     font-size: 1.1em;
 }
-.day_spec p{
+
+.day_spec p {
     margin: 5px 0;
     line-height: 1.5rem;
 }
-.instructor_section_styles{
+
+.instructor_section_styles {
     line-height: 1.5rem;
 }
+
 .training_overview {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
 .training_details {
     display: flex;
     flex-direction: row;
@@ -137,38 +162,61 @@ margin-bottom:3em;
     max-width: 95%;
     border-bottom: 1px #161616 solid;
 }
-.training_details > div {
+
+.training_details>div {
     padding: 10px;
 }
+
 .training_details:nth-child(odd) {
     background: #090909;
 }
+
 .training_name_field {
     min-width: 33%;
     margin: 0 2px;
 }
-.training_name_field p{
+
+.training_name_field p {
     font-size: 1.1rem;
     font-weight: bold;
     font-variant: small-caps;
     margin: 0 5px 5px 5px;
     text-align: center;
 }
+
 .training_description_field {
     text-align: justify;
     margin-top: 0;
     line-height: 1.5rem;
 }
-.training_description_field p{
+
+.training_description_field p {
     margin: 0 5px 5px 5px;
 }
+
+.camp_schedule{ 
+    margin:auto
+}
+
+.camp_schedule td {
+    padding: 5px;
+}
+.camp_schedule th {
+    text-align: right;
+}
+.camp_schedule tr:nth-child(odd) td {
+    background: #090909;
+}
+
+.camp_schedule tr:nth-child(odd) th {
+    background: #090909;
+}
+
 @media only screen and (max-width: 450px) {
-    .pricingSection{
+    .pricingSection {
         justify-content: space-around;
     }
-    .price-card,
-    .pricingSection.additional .price-card,
-    .pricingSection.Svinfylking .price-card {
+    .price-card, .pricingSection.additional .price-card, .pricingSection.Svinfylking .price-card {
         width: 100%;
     }
     .fbInlineTable {
@@ -185,10 +233,10 @@ margin-bottom:3em;
         flex-direction: column;
         align-items: center;
     }
-    .training_details{
+    .training_details {
         border-bottom: unset;
     }
-    .day_spec{
+    .day_spec {
         width: 75%;
     }
     .training_details {
@@ -197,7 +245,7 @@ margin-bottom:3em;
     .training_name_field {
         width: 75vw;
     }
-    .training_name_field p{
+    .training_name_field p {
         text-align: left;
     }
     .training_details:nth-child(odd) {
