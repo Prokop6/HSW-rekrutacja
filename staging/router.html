@@ -1,0 +1,68 @@
+<article>
+<div class="current_offer">
+<a href="">
+<div class="panel">
+<img src="https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/LogoFundacja.png" alt="">
+<p class="caption">
+Lato z DESW
+</p>
+</div>
+</a>
+<a href="">
+<div class="panel">
+<img src="https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/LogoFundacja.png" alt="">
+<p class="caption">
+Treningi półmiecza dla pancernych
+</p>
+</div>
+</a>
+<a href="http://">
+<div class="panel">
+<img src="https://historycznesztukiwalki.pl/wp-content/uploads/2020/09/LogoFundacja.png" alt="">
+<p class="caption">
+Regularne treningi wakacyjne
+</p>
+</div>
+</a>
+</div>
+</article>
+<style>
+.current_offer {
+display: flex;
+flex-direction: column;
+}
+.current_offer .panel {
+width: 95%;
+height: 50vw;
+position: relative;
+text-align: center;
+color: white;
+border: 1px solid white;
+margin: 5% 0;
+overflow: hidden;
+}
+.current_offer img {
+max-width: 100%;
+}
+.current_offer .caption {
+background: linear-gradient(to bottom right, black, gray);
+text-align: right;
+position: absolute;
+width: 100%;
+bottom: 0px;
+margin: 0;
+right: 0px;
+padding: 16px 8px;
+}
+@media only screen and (min-width: 450px) {
+/*   .current_offer {
+flex-direction: row;
+} */
+.current_offer .panel {
+max-height: 20vw
+}
+.current_offer img {
+max-width: 75%;
+}
+}
+</style>
