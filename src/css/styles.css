@@ -1,4 +1,4 @@
-.introduction {
+/* .introduction {
   padding: 25px 15px;
   margin-bottom: 20px;
   font-size: 1.6em;
@@ -232,5 +232,48 @@
   }
   .training_details:nth-child(odd) {
     background: unset;
+  }
+} */
+
+.current_offer {
+  display: flex;
+  flex-direction: column;
+}
+
+.current_offer .panel {
+  width: 95%;
+  height: 50vw;
+  position: relative;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  margin: 5% 0;
+  overflow: hidden;
+}
+
+.current_offer img {
+  max-width: 100%;
+}
+
+.current_offer .caption {
+  background: linear-gradient(to bottom right, black, gray);
+  text-align: right;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  margin: 0;
+  right: 0px;
+  padding: 16px 8px;
+}
+
+@media only screen and (min-width: 450px) {
+  /*   .current_offer {
+    flex-direction: row;
+  } */
+  .current_offer .panel {
+    max-height: 20vw
+  }
+  .current_offer img {
+    max-width: 75%;
   }
 }
