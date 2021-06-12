@@ -1,3 +1,8 @@
+import { listOfInstructors } from "./data"
+import { listOfOrganisations } from "./data"
+import { listOfTrainings } from "./data" 
+import { priceTagsAdditionall, priceTagsLS, priceTag, priceTagsSaS } from "./data"
+
 function renderOrganisationSection(inputInfo) {
   let insertionSite = document.getElementById("mark4organisations");
   let imputDiv = document.createElement("div");

@@ -1,4 +1,4 @@
-priceTagsLS = [
+export const priceTagsLS = [
   ["BASIC", 120, 1, "Prawo do uczestnictwa w jednym treningu długiego miecza"],
   [
     "STANDARD",
@@ -19,7 +19,7 @@ priceTagsLS = [
     "Prawo do uczestnictwa we wszystkich treningach, w tym objętych karnetami dodatkowymi",
   ],
 ];
-priceTagsAdditionall = [
+export const priceTagsAdditionall = [
   ["RAPIER", 90, 1, "Prawo do uczestnictwa w treningu Rapiera"],
   [
     "SZTYLET/ PÓŁMIECZ",
@@ -42,7 +42,7 @@ priceTagsAdditionall = [
     "Prawo do uczestnictwa we wszystkich treningach objętych karnetami dodatkowymi",
   ],
 ];
-priceTagsSaS = [
+export const priceTagsSaS = [
   [
     "MIECZ I TARCZA",
     20,
@@ -56,7 +56,7 @@ priceTagsSaS = [
     "Zniżka dla posiadaczy innych karnetów fundacji",
   ],
 ];
-listOfTrainings = [
+export const listOfTrainings = [
   {
     name: "długi miecz, grupa początkująca",
     desc: "Trening miecza długiego w konwencji <em>Blossfechten</em> (walka bez opancerzenia) według nauk niemieckiego mistrza Johannesa Liechtenauera i jego następców. Podczas rocznego kursu, trenujący opanowują podstawy poruszania się i pracy z bronią, w szczególności: postawy szermiercze, uderzenia oraz pchnięcia, elementy rozbrojeń i pięć technik mistrzowskich.",
@@ -123,7 +123,7 @@ listOfTrainings = [
     img: "",
   },
 ];
-listOfOrganisations = [
+export const listOfOrganisations = [
   {
     name: "ClubFundacja",
     fullName: "Fundacja na Rzecz Historycznych Sztuk Walki",
@@ -154,7 +154,7 @@ listOfOrganisations = [
     about: "https://www.szampierz.pl/o-nas/",
   },
 ];
-listOfInstructors = [
+export const listOfInstructors = [
   {
     name: "Konrad Świderek",
     desc: "Ze środowiskiem DESW związany od 2012 r. Instruktor prowadzący Warszawską Sekcję SDESW ARMA-PL. Instruktor sportu i badacz traktatów. Specjalizuje się w długim mieczu w konwencji <em>Blossfechten</em>, walce sztyletem, <em>Harnischfechten</em> (techniki półmieczowe) oraz rapierze według nauk szkoły <em>La Verdadera Destreza</em>. W nielicznych wolnych chwilach promotor i organizator wydarzeń związanych z DESW.",
