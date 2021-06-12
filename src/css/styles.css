@@ -1,4 +1,4 @@
-/* .introduction {
+.introduction {
   padding: 25px 15px;
   margin-bottom: 20px;
   font-size: 1.6em;
@@ -9,19 +9,6 @@
 .introduction p {
   text-align: center;
   margin: 0px;
-}
-
-.announcementDiv {
-  position: sticky;
-  top: 0;
-  padding: 25px 15px;
-  margin-bottom: 20px;
-  font-size: 1em;
-  border: 1px solid #81d742;
-  text-align: center;
-  background-color: #aed691;
-  color: #000000;
-  font-weight: bold;
 }
 
 .announcementDiv p {
@@ -233,7 +220,7 @@
   .training_details:nth-child(odd) {
     background: unset;
   }
-} */
+} 
 
 .current_offer {
   display: flex;
@@ -253,27 +240,4 @@
 
 .current_offer img {
   max-width: 100%;
-}
-
-.current_offer .caption {
-  background: linear-gradient(to bottom right, black, gray);
-  text-align: right;
-  position: absolute;
-  width: 100%;
-  bottom: 0px;
-  margin: 0;
-  right: 0px;
-  padding: 16px 8px;
-}
-
-@media only screen and (min-width: 450px) {
-  /*   .current_offer {
-    flex-direction: row;
-  } */
-  .current_offer .panel {
-    max-height: 20vw
-  }
-  .current_offer img {
-    max-width: 75%;
-  }
 }
