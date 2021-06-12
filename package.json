@@ -1,0 +1,19 @@
+{
+  "name": "hsw-rekrutacja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prokop6/HSW-rekrutacja.git"
+  },
+  "author": "Prokop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prokop6/HSW-rekrutacja/issues"
+  },
+  "homepage": "https://github.com/Prokop6/HSW-rekrutacja#readme"
+}
