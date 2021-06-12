@@ -25,7 +25,7 @@ export function renderInstructorsSection(inputData) {
         descriptionSection.append(photoDiv);
         descriptionSection.append(InstrChart);
 
-        let subsection = document.createElement("div");
+        let subsection = document.createElement('div');
 
         subsection.append(InstrName);
         subsection.append(descriptionSection);

@@ -7,17 +7,30 @@
 }
 
 .introduction p {
-  text-align: center;
-  margin: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.announcementDiv {
+    position: sticky;
+    top: 0;
+    padding: 25px 15px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border: 1px solid #81d742;
+    text-align: center;
+    background-color: #aed691;
+    color: #000000;
+    font-weight: bold;
 }
 
 .announcementDiv p {
-  margin: unset;
+    margin: unset;
 }
 
 .map {
-  width: 91.5%;
-  margin-bottom: 3em;
+    width: 91.5%;
+    margin-bottom: 3em;
 }
 
 .orgDescr {
@@ -240,4 +253,65 @@
 
 .current_offer img {
   max-width: 100%;
+}
+    margin: 0 5px 5px 5px;
+}
+
+.camp_schedule{ 
+    margin:auto
+}
+
+.camp_schedule td {
+    padding: 5px;
+}
+.camp_schedule th {
+    text-align: right;
+}
+.camp_schedule tr:nth-child(odd) td {
+    background: #090909;
+}
+
+.camp_schedule tr:nth-child(odd) th {
+    background: #090909;
+}
+
+@media only screen and (max-width: 450px) {
+    .pricingSection {
+        justify-content: space-around;
+    }
+    .price-card, .pricingSection.additional .price-card, .pricingSection.Svinfylking .price-card {
+        width: 100%;
+    }
+    .fbInlineTable {
+        flex-direction: column;
+    }
+    .fbInlinePhoto {
+        width: 100%;
+        height: auto;
+    }
+    .fbInlineText {
+        margin-left: 0;
+    }
+    .training_spec {
+        flex-direction: column;
+        align-items: center;
+    }
+    .training_details {
+        border-bottom: unset;
+    }
+    .day_spec {
+        width: 75%;
+    }
+    .training_details {
+        flex-direction: column;
+    }
+    .training_name_field {
+        width: 75vw;
+    }
+    .training_name_field p {
+        text-align: left;
+    }
+    .training_details:nth-child(odd) {
+        background: unset;
+    }
 }
